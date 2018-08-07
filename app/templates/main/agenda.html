@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block main %}
+<h1>{{ title }}</h1>
+<div class="agenda">
+  {% for item in agenda %}
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{ item.time }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{ item.speaker }}</h6>
+      <p class="card-text">{{ item.title }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

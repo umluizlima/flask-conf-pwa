@@ -1,14 +1,29 @@
 {% extends "base.html" %}
 {% block body %}
-<header>
-  <h1><a href="/">{{ title }}</a></h1>
-</header>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand" href="#">Flask Conf</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<main>
-  {% block main %}{% endblock %}
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if url_for(request.endpoint) == url_for('main.index') %} active {% endif %}">
+        <a class="nav-link" href="{{ url_for('main.index') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if url_for(request.endpoint) == url_for('main.agenda') %} active {% endif %}">
+        <a class="nav-link" href="{{ url_for('main.agenda') }}">Agenda</a>
+      </li>
+      <li class="nav-item {% if url_for(request.endpoint) == url_for('main.cdc') %} active {% endif %}">
+        <a class="nav-link" href="{{ url_for('main.cdc') }}">CDC</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main" class="container">
+  <div class="starter-template">
+    {% block main %}{% endblock %}
+  </div>
 </main>
-
-<footer>
-  <p>available on <a href="https://github.com/umluizlima/flask-pwa" target="_blank" rel="noopener">GitHub</a></p>
-</footer>
 {% endblock %}
