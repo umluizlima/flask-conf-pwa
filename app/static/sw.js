@@ -6,17 +6,18 @@ if (workbox) {
   console.log(`Yay! Workbox is loaded 🎉`);
 
   workbox.precaching.precacheAndRoute([
-    "/", "/agenda", "/palestrantes"
-    // {
-    //   "url": "/",
-    //   // "revision": "ff1c832025faf6ebb36c3385ee1434c5"
-    // },
-    // {
-    //   "url": "/agenda",
-    // },
-    // {
-    //   "url": "/palestrantes",
-    // }
+    {
+      "url": "/",
+      "revision": "1"
+    },
+    {
+      "url": "/agenda",
+      "revision": "1"
+    },
+    {
+      "url": "/cdc",
+      "revision": "1"
+    }
   ]);
 
   // workbox.routing.registerRoute(
