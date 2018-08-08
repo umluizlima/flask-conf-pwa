@@ -8,29 +8,21 @@ if (workbox) {
   workbox.precaching.precacheAndRoute([
     {
       "url": "/",
-      "revision": "1"
+      "revision": "2"
     },
     {
       "url": "/agenda",
-      "revision": "1"
+      "revision": "2"
+    },
+    {
+      "url": "/local",
+      "revision": "2"
     },
     {
       "url": "/cdc",
-      "revision": "1"
+      "revision": "2"
     }
   ]);
-
-  // workbox.routing.registerRoute(
-  //   '/',
-  //   workbox.strategies.staleWhileRevalidate({
-  //     cacheName: 'pages',
-  //     plugins: [
-  //       new workbox.cacheableResponse.Plugin({
-  //         statuses: [0, 200]
-  //       }),
-  //     ],
-  //   }),
-  // );
 
   workbox.routing.registerRoute(
     /\.(?:js|css)$/,
