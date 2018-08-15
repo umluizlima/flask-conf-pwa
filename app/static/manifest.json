@@ -1,108 +1,52 @@
 {
-    "name": "Flask Conf",
-    "short_name": "FlaskConf",
-    "description": "A progressive webapp for Flask Conf 2018.",
-    "icons": [
-        {
-            "src": "/images/icons/3d01eca4-3e79-c64a-7bf7-dd71fc0225ab.webPlatform.png",
-            "sizes": "44x44",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/16c59ed3-496d-ce0e-2f27-f17795d9732d.webPlatform.png",
-            "sizes": "48x48",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/ea3798f1-8414-d004-e15f-639b8d5b9fb7.webPlatform.png",
-            "sizes": "1240x600",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/dadbcd27-f394-1c74-c27a-be3418e78149.webPlatform.png",
-            "sizes": "300x300",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/14b00f57-eb77-33c8-bb3d-aff3186c9d35.webPlatform.png",
-            "sizes": "150x150",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/cf303896-6163-a49b-aeaa-4ca497b37d43.webPlatform.png",
-            "sizes": "88x88",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/9a88031e-0ca7-7471-cf6d-c0b5a82c7c79.webPlatform.png",
-            "sizes": "24x24",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/586ec96d-beaa-5e0e-3c68-20a638a1e25b.webPlatform.png",
-            "sizes": "50x50",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/1c7298e6-e8bd-de22-ab0f-80a791447de6.webPlatform.png",
-            "sizes": "620x300",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/44ebba3a-2514-f500-f8f3-f3e049ba31b9.webPlatform.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/4edef01f-b910-e0e1-81b6-dbe144f74054.webPlatform.png",
-            "sizes": "144x144",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/d3543382-9fb0-0f17-c546-aef71e33d89b.webPlatform.png",
-            "sizes": "96x96",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/72df0cda-2e12-d96a-be70-e95a9983a947.webPlatform.png",
-            "sizes": "72x72",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/3ad482f4-98c0-f0fc-a27a-160e94ee575d.webPlatform.png",
-            "sizes": "36x36",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/8717af92-5688-9561-a0d5-a102e6270b00.webPlatform.png",
-            "sizes": "1024x1024",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/88a03911-3e54-4f21-d6f7-84643d19eabd.webPlatform.png",
-            "sizes": "180x180",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/ad512760-405c-7fa6-5a86-025b9f42e444.webPlatform.png",
-            "sizes": "152x152",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/b7076fb8-0fdf-4cc4-2f49-6dd0af5160a1.webPlatform.png",
-            "sizes": "120x120",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/icons/828a7e33-bc6b-9d9e-8673-c2c2567e419e.webPlatform.png",
-            "sizes": "76x76",
-            "type": "image/png"
-        }
-    ],
-    "start_url": "/",
-    "scope": "/",
-    "display": "standalone",
-    "orientation": "portrait",
-    "background_color": "#ffffff",
-    "theme_color": "#314d6e"
+  "name": "Flask Conf",
+  "short_name": "FlaskConf",
+  "theme_color": "#314d6e",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
