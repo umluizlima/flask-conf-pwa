@@ -8,19 +8,19 @@ if (workbox) {
   workbox.precaching.precacheAndRoute([
     {
       "url": "/",
-      "revision": "2"
+      "revision": "3"
     },
     {
       "url": "/agenda",
-      "revision": "2"
+      "revision": "3"
     },
     {
       "url": "/local",
-      "revision": "2"
+      "revision": "3"
     },
     {
       "url": "/cdc",
-      "revision": "2"
+      "revision": "3"
     }
   ]);
 
