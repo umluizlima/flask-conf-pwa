@@ -13,7 +13,7 @@ if (workbox) {
     },
     {
       "url": "/agenda",
-      "revision": "5"
+      "revision": "6"
     },
     {
       "url": "/local",

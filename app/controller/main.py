@@ -17,7 +17,7 @@ atividades = [
     {
         'title': 'Usando o Flask Admin com segurança e flexibilidade',
         'time': '10:20 - 11:00',
-        'speaker': 'Thaíssa Falbo'
+        'speaker': 'Bruno Rocha'
     },
     {
         'title': 'Aplicações web com Flask e Docker',
