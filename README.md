@@ -3,7 +3,8 @@
 
 Flask Conf PWA é uma aplicação desenvolvida como exemplo para a palestra ministrada durante a [Flask Conf 2018](https://2018.flask.python.org.br/). Inclui as páginas de agenda, código de conduta e local.
 
-Demonstração disponível no [Heroku](https://flask-conf-pwa.herokuapp.com).
+- Slides disponíveis [aqui](bit.ly/flaskconfpwa_pdf).
+- Demonstração disponível no [Heroku](bit.ly/flaskconfpwa).
 
 ## Links
 
